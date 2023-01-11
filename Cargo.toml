@@ -1,0 +1,12 @@
+[package]
+name = "music"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cpal = "0.14.2"
+clap = "4.0.29"
+anyhow = "1.0.66"
+rust-music-theory = "0.2.0"
